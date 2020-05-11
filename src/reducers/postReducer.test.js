@@ -1,4 +1,5 @@
 import reducer from './postReducer';
+import { addPost } from '../actions/postActions';
 
 describe('postReducer', () => {
   it('handles the ADD_POST ACTION', () => {
