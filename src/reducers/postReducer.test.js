@@ -1,5 +1,5 @@
 import reducer from './postReducer';
-import { addPost } from '../actions/postActions';
+import { addPost, DELETE_POST, deletePost } from '../actions/postActions';
 
 describe('postReducer', () => {
   it('handles the ADD_POST ACTION', () => {
@@ -20,4 +20,16 @@ describe('postReducer', () => {
       }
     ]);
   });
+
+  it('handles the DELETE_POST action', () => {
+    const state = [];
+
+    const action = deletePost(0);
+
+    const newState = reducer(state, action);
+
+    expect(newState).toEqual([
+    ])
+
+  })
 });
