@@ -23,7 +23,7 @@ describe('add post', () => {
 
     expect(action).toEqual({
       type: DELETE_POST,
-      payload: 6
+      payload: 3
     });
   });
 });
