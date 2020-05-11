@@ -25,11 +25,7 @@ describe('postReducer', () => {
     const state = [];
 
     const action = deletePost(0);
-
     const newState = reducer(state, action);
-
-    expect(newState).toEqual([
-    ])
-
+    expect(newState).toEqual([]);
   })
 });
