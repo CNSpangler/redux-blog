@@ -1,4 +1,4 @@
-import {ADD_POST} from '../actions/postActions';
+import { ADD_POST, DELETE_POST } from '../actions/postActions';
 
 const initialState = [];
 
