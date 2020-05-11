@@ -1,4 +1,4 @@
-import {addPost} from '../actions/postActions';
+import { ADD_POST, addPost } from '../actions/postActions';
 
 describe('add post', () => {
   it('creates an ADD_POST action', () => {
